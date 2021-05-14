@@ -1,3 +1,4 @@
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main {
@@ -345,13 +346,14 @@ public class Main {
 //		System.out.print("Masukkan nama: ");
 //		String name = scan.nextLine();
 //		System.out.println("Nama: " + name);
-		
+//	
 //		String password;
 //		boolean isValidPassword = false;
 //		
 //		do {
 //			System.out.print("Input your password: ");
 //			password = scan.nextLine();
+//			
 //			if(password.length() >= 8 && password.length() <= 20) {
 //				isValidPassword = true;
 //			}
@@ -361,6 +363,45 @@ public class Main {
 //			}
 //		} while(!isValidPassword);
 //		scan.close();	
+		
+//		MATH
+//		double a, b;
+//		a = 3.142D;
+//		b = 4.128D;
+//		System.out.println("Maximum " + Math.max(a, b));
+//		Bulatin, maksimum, minimum, absolute
+		
+//		int c = 49;
+//		System.out.println(Math.sqrt(c));
+		
+//		ITM123
+//	 	123
+//		Integer x = Integer.parseInt("123");
+//		System.out.println(x);
+		
+//		EXCEPTION HANDLING
+//		int choice = -1;
+//		
+//		do {
+//			try {
+//				choice = scan.nextInt();
+//				scan.nextLine();
+//			} catch (Exception e) {
+//				scan.nextLine();
+//				System.out.println("Input must be a number!");
+//			}
+//		} while(choice == -1);
+		
+//		ArithmeticException, ArrayIndexOutOfBoundException, etc..
+		
+//		try {
+//			int[] numbers = {1, 2, 3};
+//			System.out.println(numbers[4]);
+//		} catch (Exception e) {
+//			System.out.println("Indexing Error");
+//		} finally {
+//			System.out.println("Done");
+//		}
 	}
 
 }
